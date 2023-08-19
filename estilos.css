@@ -306,10 +306,7 @@ section article:hover{
 
 /* Footer */
 
-footer{
-    display: flex;
-    flex-direction: column;
-}
+
 
 footer a{
     transition: color 0.3s ease;
@@ -382,10 +379,26 @@ footer i{
 
 /* Fin del Footer */
 
+/* Inicio mediaqueries */
+
 @media only screen and (min-width:0) and (max-width:576px) {
-    .navbar-collapse{
+        .navbar-collapse{
         background-color: rgba(0, 0, 0, 0.7);
         display: flex;
         padding-right: 10px;
     }
+
+    .call{
+        width: 90%;
+    }
+
+    footer p{
+        padding: 0 50px;
+        }     
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
