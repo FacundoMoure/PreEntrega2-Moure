@@ -306,35 +306,61 @@ section article:hover{
 
 /* Footer */
 
-/* footer{
-    text-align: center;
-    font-size: 24px;
+footer{
     display: flex;
-    justify-content: space-between;
-    background-color: cornsilk;
-    padding: 20px;
-} */
+    flex-direction: column;
+}
 
-/* footer a{
+footer a{
     transition: color 0.3s ease;
     text-decoration: none;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 4);
     color: #fff;
-} */
+    padding: 5px;
+}
 
-/* footer a:hover{
-    color: rgba(0, 0, 0, 0.603);
-} */
+footer a:hover{
+    color: yellow;
+}
 
 footer p{
     margin-top: 15px;
 }
 
-/* footer i{
+footer i{
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
     padding-left: 10px;
-} */
+}
+
+.what{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(226, 49, 43, 0.685);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+}
+
+.what {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+}
+
+.what:hover{
+    color: yellow;
+}
+
 
 .irAlHome{
     margin-right: 100px;
