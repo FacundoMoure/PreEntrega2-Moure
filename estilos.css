@@ -19,7 +19,7 @@ html{
 
 /* Main index */
 
-header{
+/* header{
 	background-color: cornsilk;
     position: sticky;
     top: 0;
@@ -29,39 +29,54 @@ header{
     font-size: 26px;
     text-shadow: 0px 0px 10px rgba(128, 0, 0, 1);
     height: 110px;
-}
+} */
 
-header aside img{
+/* header aside img{
     height: 70px;
     margin-left: 100px;
-}
+} */
 
-.navbar{
+/* .navbar{
     float: right;
     padding: 20px;
-}
+} */
 
-.navbar ul{
+/* .navbar ul{
     list-style: none;
+} */
+
+/* .navbar ul li{
+    display: inline-block;
+} */
+
+
+.navbar{
+    height: 85px;
+    box-shadow: 0 0 7px black !important;
 }
 
-.navbar ul li{
-    display: inline-block;
+.navbar-brand img{
+    height: 60px;
+}
+
+.nav-link{
+    color: white !important;
 }
 
 .navbar a{
     transition: color 0.3s ease;
     text-decoration: none;
     color: #fff;
-    padding: 2px;
+    padding: 6px;
 }
 
 .navbar a:hover{
-    color: black;
+    color: yellow;
 }
 
+
 main{
-    height: 900px;
+    height: 1200px;
     width: auto;
     background-color: antiquewhite;
     background-image: url(img/impresora1.jpg);
@@ -291,35 +306,35 @@ section article:hover{
 
 /* Footer */
 
-footer{
+/* footer{
     text-align: center;
     font-size: 24px;
     display: flex;
     justify-content: space-between;
     background-color: cornsilk;
     padding: 20px;
-}
+} */
 
-footer a{
+/* footer a{
     transition: color 0.3s ease;
     text-decoration: none;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 4);
     color: #fff;
-}
+} */
 
-footer a:hover{
+/* footer a:hover{
     color: rgba(0, 0, 0, 0.603);
-}
+} */
 
 footer p{
-    margin: 5px;
+    margin-top: 15px;
 }
 
-footer i{
+/* footer i{
     text-align: center;
     letter-spacing: 10px;
     padding-left: 10px;
-}
+} */
 
 .irAlHome{
     margin-right: 100px;
@@ -341,3 +356,10 @@ footer i{
 
 /* Fin del Footer */
 
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        padding-right: 10px;
+    }
+}

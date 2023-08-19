@@ -16,24 +16,38 @@
     <!-- link css-->
     <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
-    <!-- inicio header -->
-    <header>
-        <aside class="rinconlogo">
-            <img src="img/logorincon3d.png" alt="rinconlogo">
-        </aside>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="./pages/quienessomos.html">Nosotros</li>
-                <li><a href="./pages/trabajos.html">Trabajos</a></li>
-                <li><a href="./pages/impresiones3d.html">Impresiones 3D</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- fin header -->
+    <!-- inicio navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logorincon3d.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end w-100">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/quienessomos.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/impresiones3d.html">Impresiones 3D</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin navbar -->
     <!-- inicio main-->
     <main>
         <div class="padreCall">
@@ -64,7 +78,7 @@
     <!-- fin main -->
 
     <!-- inicio footer -->
-    <footer>
+    <!-- <footer>
         <p>Copyright 2023</p>
         <div class="redes">
             <i class="fa-brands fa-facebook"></i>
@@ -76,7 +90,13 @@
         </div>
         <div class="irAlHome">
             <a href="#">Home</a></div>
-    </footer>
+    </footer> -->
+    <div class="container-fluid bg-dark text-white">
+        <footer class="py-3 text-center">
+            <p>Todos los derechos reservador por Copyright 2023</p>
+        </footer>
+    </div>
+
     <!-- fin footer -->
     <a href="#" class="subir">
         <i class="fa-solid fa-caret-up"></i>
@@ -89,4 +109,4 @@
     <!-- Fin BS -->
 </body>
 
-</html
+</html>
