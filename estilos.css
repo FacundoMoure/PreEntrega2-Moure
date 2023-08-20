@@ -138,17 +138,22 @@ main{
 
 /* Main Trabajos */
 
+.trabajos{
+    height: auto;
+}
+
 .logo{
     color: aliceblue;
     font-size: 26px;
     padding: 50px;
     text-align: center;
     margin-bottom: 10px;
+    text-shadow: 0 0 10px whitesmoke;
 }
 
-.logo span{
+/* .logo span{
     color: black;
-}
+} */
 
 .impresiones{
     color: whitesmoke;
@@ -211,6 +216,7 @@ h1{
 section{
     transition: box-shadow 0.5s ease;
     width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -253,6 +259,7 @@ section article:hover{
 .card-title{
     text-align: center;
     font-family: 'PT Serif', serif;
+    color: bisque;
 }
 
 .card-desc{
@@ -306,8 +313,6 @@ section article:hover{
 
 /* Footer */
 
-
-
 footer a{
     transition: color 0.3s ease;
     text-decoration: none;
@@ -358,7 +363,6 @@ footer i{
     color: yellow;
 }
 
-
 .irAlHome{
     margin-right: 100px;
 }
@@ -400,5 +404,16 @@ footer i{
         display: flex;
         flex-direction: column;
     }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
+@media only screen and (min-width:577) and (max-width:800px) {
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
