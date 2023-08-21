@@ -19,37 +19,6 @@ html{
 
 /* Main index */
 
-/* header{
-	background-color: cornsilk;
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-	padding: 26px;
-    font-size: 26px;
-    text-shadow: 0px 0px 10px rgba(128, 0, 0, 1);
-    height: 110px;
-} */
-
-/* header aside img{
-    height: 70px;
-    margin-left: 100px;
-} */
-
-/* .navbar{
-    float: right;
-    padding: 20px;
-} */
-
-/* .navbar ul{
-    list-style: none;
-} */
-
-/* .navbar ul li{
-    display: inline-block;
-} */
-
-
 .navbar{
     height: 85px;
     box-shadow: 0 0 7px black !important;
@@ -74,9 +43,8 @@ html{
     color: yellow;
 }
 
-
 main{
-    height: 1200px;
+    height: auto;
     width: auto;
     background-color: antiquewhite;
     background-image: url(img/impresora1.jpg);
@@ -92,7 +60,7 @@ main{
     background-color: rgba(0, 0, 0, 0.7);
     width: 70%;
     border: 2px solid black;
-    padding: 0px;
+    padding-top: 10px;
     margin: 0 auto;
 }
 
@@ -140,20 +108,17 @@ main{
 
 .trabajos{
     height: auto;
+    font-family: 'Lora', serif;
 }
 
 .logo{
     color: aliceblue;
-    font-size: 26px;
+    font-size: 36px;
     padding: 50px;
     text-align: center;
     margin-bottom: 10px;
     text-shadow: 0 0 10px whitesmoke;
 }
-
-/* .logo span{
-    color: black;
-} */
 
 .impresiones{
     color: whitesmoke;
@@ -167,8 +132,9 @@ main{
 }
 
 .impresiones h2{
-    color: red;
+    color: whitesmoke;
     text-align: center;
+    text-shadow: 0 0 8px whitesmoke;
     padding-bottom: 10px;
     text-decoration: underline;
 }
@@ -187,7 +153,7 @@ main{
 }
 
 h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lora', serif;
     font-size: 24px;
     color:aquamarine;
     margin-bottom: 10px;
@@ -218,53 +184,94 @@ section{
     width: 100%;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
-}
-
-section article:hover{
-    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
+    gap: 20px;
 }
 
 .card{
     width: 250px;
-    height: 270px;
+    height: 400px;
     background-color: #333;
     border: 3px solid black;
     margin-bottom: 60px;
+    transition: all 0.1s;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
 .card-img{
-    background-image: url(img/batman.jpg);
-    height: 200px;
-    width: 100%;
+    background-image: url(./img/dartvader.jpg);
+    height: 400px;
+    width: auto;
     background-size: cover;
 }
 
 .card-img2{
-    background-image: url(img/godofwar.jpg);
-    height: 200px;
-    width: 100%;
-    background-size: 350px;
+    background-image: url(./img/ironman1.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
 }
 
 .card-img3{
-    background-image: url(img/spiderman.jpg);
-    height: 200px;
-    width: 100%;
+    background-image: url(./img/spiderman.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img4{
+    background-image: url(./img/mandalorian.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img5{
+    background-image: url(./img/thanos.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img6{
+    background-image: url(./img/joker.jpg);
+    height: 400px;
+    width: auto;
     background-size: cover;
 }
 
 .card-title{
     text-align: center;
-    font-family: 'PT Serif', serif;
+    font-family: 'Lora', serif;
     color: bisque;
+    margin-top: 5px;
 }
 
 .card-desc{
     color: antiquewhite;
     text-align: center;
+}
+
+.card a{
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.1s;
+}
+
+.card a:hover{
+    color: yellow;
 }
 
 /* Fin Main Trabajos */
