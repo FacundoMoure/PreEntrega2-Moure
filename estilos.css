@@ -52,23 +52,29 @@ main{
 }
 
 .nosotrosPadre{
-    padding: 20px;
+    padding: 30px;
+    margin: 40px;
 }
 
 .nosotrosMain{
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 70%;
+    width: 100%;
     border: 2px solid black;
-    padding-top: 10px;
     margin: 0 auto;
 }
 
 .nosotrosMain p{
     color: #fff;
     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 8px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.container img{
+    border: 2px solid black;
 }
 
 /* Fin del Main index */
@@ -415,12 +421,5 @@ footer i{
     section{
         display: flex;
         flex-direction: column;
-    }
-}
-
-@media only screen and (min-width:577) and (max-width:800px) {
-    section{
-        display: flex;
-        flex-wrap: wrap;
     }
 }
