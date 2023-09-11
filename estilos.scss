@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
 
-
 /* font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;
@@ -20,8 +19,6 @@ $font2: 'Nunito', sans-serif;
 $font3: 'Lora', serif;
 $font4: 'Lato', sans-serif;
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -34,30 +31,6 @@ html{
 }
 
 /* Main index */
-
-.navbar{
-    height: 85px;
-    box-shadow: 0 0 7px $color5 !important;
-}
-
-.navbar-brand img{
-    height: 60px;
-}
-
-.nav-link{
-    color: $color3 !important;
-}
-
-.navbar a{
-    transition: color 0.3s ease;
-    text-decoration: none;
-    color: $color3;
-    padding: 6px;
-}
-
-.navbar a:hover{
-    color: $color5;
-}
 
 main{
     height: auto;
@@ -78,15 +51,15 @@ main{
     border: 3px solid $color4;
     padding: 10px;
     margin: 0 auto;
-}
 
-.call h1{
-    padding: 10px;
-    font-size: 30px;
-}
+    h1{
+        padding: 10px;
+        font-size: 30px;
+    }
 
-.call p{
-    color: $color5;
+    p{
+        color: $color5;
+    }
 }
 
 .nosotrosPadre{
@@ -123,20 +96,53 @@ main{
 
 /* Main Nosotros */
 
-.nosotros p{
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid $color4;
-    height: auto;
+.jumbotron{
+    background-image: url(img/impresora3dmain.webp);
+    height: 400px;
     width: 100%;
-    color: $color3;
-    font-size: 16px;
-    font-family: $font2;
-    margin: 20px;
-    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
 }
 
-.nosotros img{
-    margin: 20px;
+.impresiones3d{
+    text-align: center;
+    color: $color1;
+    padding: 5px;
+    background-color: rgb(22, 37, 37);
+    text-shadow: 0 0 4px whitesmoke;
+}
+
+#impresora3d {
+    height: 500px;
+    background-image: url(img/impresion3d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#rinconHistoria p{
+    font-family: $font3;
+    font-size: 16px;
+    padding-top: 20px;
+    background-color: bisque; 
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.nright{
+    background-color: $color1;
+}
+
+h2{
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(22, 37, 37);
+    text-shadow: 0 0 4px $color2;
+    padding: 5px;
+    margin-bottom: 0;
 }
 
 /* Fin Main Nosotros */
@@ -379,77 +385,8 @@ iframe{
 
 /* Fin página de contacto */
 
-/* Footer */
-
-footer a{
-    transition: color 0.3s ease;
-    text-decoration: none;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 4);
-    color: $color3;
-    padding: 5px;
-}
-
-footer a:hover{
-    color: $color5;
-}
-
-footer p{
-    margin-top: 15px;
-}
-
-footer i{
-    text-align: center;
-    letter-spacing: 8px;
-    padding-left: 10px;
-}
-
-.what{
-    height: 50px;
-    width: 50px;
-    background-color: rgba(226, 49, 43, 0.685);
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    text-decoration: none;
-    color: $color3;
-    font-size: 20px;
-    border: 2px solid $color3;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px $color4;
-}
-
-.what {
-    transition: color 0.3s ease;
-    text-decoration: none;
-    color: $color3;
-    padding: 6px;
-}
-
-.what:hover{
-    color: $color5;
-}
-
-.irAlHome{
-    margin-right: 100px;
-}
-
-.subir{
-    height: 35px;
-    width: 40px;
-    font-size: 34px;
-    background-color: rgba(0, 0, 0, 0.363);
-    color: $color1;
-    position: fixed;
-    bottom: 26px;
-    right: 40px;
-    text-align: center;
-    line-height: 40px;
-    box-shadow: 0 0 6px $color4 ;
-}
-
-/* Fin del Footer */
+@import "_footer";
+@import "_navbar";
 
 /* Inicio mediaqueries */
 

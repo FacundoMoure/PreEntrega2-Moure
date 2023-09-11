@@ -1,0 +1,71 @@
+/* Footer */
+
+footer a{
+    transition: color 0.3s ease;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 4);
+    color: $color3;
+    padding: 5px;
+}
+
+footer a:hover{
+    color: $color5;
+}
+
+footer p{
+    margin-top: 15px;
+}
+
+footer i{
+    text-align: center;
+    letter-spacing: 8px;
+    padding-left: 10px;
+}
+
+.what{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(226, 49, 43, 0.685);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    color: $color3;
+    font-size: 20px;
+    border: 2px solid $color3;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px $color4;
+}
+
+.what {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: $color3;
+    padding: 6px;
+}
+
+.what:hover{
+    color: $color5;
+}
+
+.irAlHome{
+    margin-right: 100px;
+}
+
+.subir{
+    height: 35px;
+    width: 40px;
+    font-size: 34px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: $color1;
+    position: fixed;
+    bottom: 26px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 6px $color4 ;
+}
+
+/* Fin del Footer */

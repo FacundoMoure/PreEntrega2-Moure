@@ -20,30 +20,6 @@ html {
 }
 
 /* Main index */
-.navbar {
-  height: 85px;
-  box-shadow: 0 0 7px yellow !important;
-}
-
-.navbar-brand img {
-  height: 60px;
-}
-
-.nav-link {
-  color: white !important;
-}
-
-.navbar a {
-  transition: color 0.3s ease;
-  text-decoration: none;
-  color: white;
-  padding: 6px;
-}
-
-.navbar a:hover {
-  color: yellow;
-}
-
 main {
   height: auto;
   width: auto;
@@ -64,12 +40,10 @@ main {
   padding: 10px;
   margin: 0 auto;
 }
-
 .call h1 {
   padding: 10px;
   font-size: 30px;
 }
-
 .call p {
   color: yellow;
 }
@@ -106,20 +80,53 @@ main {
 
 /* Fin del Main index */
 /* Main Nosotros */
-.nosotros p {
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 2px solid black;
-  height: auto;
+.jumbotron {
+  background-image: url(img/impresora3dmain.webp);
+  height: 400px;
   width: 100%;
-  color: white;
-  font-size: 16px;
-  font-family: "Nunito", sans-serif;
-  margin: 20px;
-  padding: 30px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
 }
 
-.nosotros img {
-  margin: 20px;
+.impresiones3d {
+  text-align: center;
+  color: whitesmoke;
+  padding: 5px;
+  background-color: rgb(22, 37, 37);
+  text-shadow: 0 0 4px whitesmoke;
+}
+
+#impresora3d {
+  height: 500px;
+  background-image: url(img/impresion3d.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#rinconHistoria p {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  padding-top: 20px;
+  background-color: bisque;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.nright {
+  background-color: whitesmoke;
+}
+
+h2 {
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(22, 37, 37);
+  text-shadow: 0 0 4px antiquewhite;
+  padding: 5px;
+  margin-bottom: 0;
 }
 
 /* Fin Main Nosotros */
@@ -425,6 +432,30 @@ footer i {
 }
 
 /* Fin del Footer */
+.navbar {
+  height: 85px;
+  box-shadow: 0 0 7px yellow !important;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+
 /* Inicio mediaqueries */
 @media only screen and (min-width: 0) and (max-width: 576px) {
   .navbar-collapse {
