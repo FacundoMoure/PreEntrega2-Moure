@@ -205,12 +205,12 @@ section {
   background-color: #333;
   border: 3px solid black;
   margin-bottom: 60px;
-  transition: all 0.1s;
+  transition: all 0.4s;
 }
 
 .card:hover {
-  transform: scale(1.01);
-  box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+  box-shadow: 3px 2px 6px rgba(236, 218, 20, 0.5);
 }
 
 .card-img {
@@ -347,6 +347,7 @@ iframe {
   padding: 20px;
   background-image: none;
   background-color: rgba(255, 68, 0, 0.404);
+  text-align: center;
 }
 
 .formulario {
@@ -354,11 +355,8 @@ iframe {
 }
 
 .mapa {
-  width: 402px;
-  height: 302px;
-  margin-top: 80px;
-  margin-left: 20px;
-  border: 1px solid black;
+  width: 500px;
+  height: 500px;
 }
 
 /* Fin página de contacto */
