@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'REM', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+
+$color1: whitesmoke;
+$color2: antiquewhite;
+$color3: white;
+$color4: black;
+$color5: yellow;
+$font1: 'Open Sans', sans-serif;
+$font2: 'Nunito', sans-serif;
+$font3: 'Lora', serif;
+$font4: 'Lato', sans-serif;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Main index */
+
+.navbar{
+    height: 85px;
+    box-shadow: 0 0 7px $color5 !important;
+}
+
+.navbar-brand img{
+    height: 60px;
+}
+
+.nav-link{
+    color: $color3 !important;
+}
+
+.navbar a{
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: $color3;
+    padding: 6px;
+}
+
+.navbar a:hover{
+    color: $color5;
+}
+
+main{
+    height: auto;
+    width: auto;
+    background-color: $color1;
+    background-image: url(img/impresora1.jpg);
+    background-size: cover;
+}
+
+.nosotrosPadre{
+    padding: 30px;
+    margin: 40px;
+}
+
+.nosotrosMain{
+    color: $color2;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    border: 2px solid $color4;
+    margin: 0 auto;
+}
+
+.nosotrosMain p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+.containerImpresora img{
+    border: 2px solid $color4;
+}
+
+.container{
+    width: 60%;
+    padding-bottom: 70px;
+}
+
+/* Fin del Main index */
+
+/* Main Nosotros */
+
+.quienessomos{
+    height: 900px;
+}
+
+.quienessomos p{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid $color4;
+    height: auto;
+    padding: 10px;
+    width: 60%;
+    color: $color3;
+    font-size: 18px;
+    font-family: $font2;
+    margin: 15px;
+    margin-top: 50px;
+    display: block;
+    position: sticky;
+    top: 140px;
+    left: 80px;
+}
+
+.impresion3dimg{
+    float: right;
+    margin-right: 90px;
+    border: 2px solid $color4;
+}
+
+/* Fin Main Nosotros */
+
+/* Main Trabajos */
+
+.trabajos{
+    height: auto;
+    font-family: $font1;
+}
+
+h1{
+    color: $color3;
+    font-size: 40px;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px $color1;
+    font-family: $font3;
+}
+
+.impresiones{
+    color: $color1;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: inline-block;
+    border: 2px solid $color4;
+    width: auto;
+    padding: 30px;
+    margin: 20px;
+    margin-bottom: 70px;
+}
+
+.impresiones h2{
+    color: $color2;
+    text-align: center;
+    text-shadow: 0 0 8px $color1;
+    padding-bottom: 10px;
+}
+
+.impresiones p{
+    margin-top: 10px;
+    font-family: $font1;
+}
+
+.padreCall{
+    padding:50px;
+}
+
+.call{
+    color: $color1;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 50%;
+    border: 3px solid $color4;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.nosotrosimagen{
+    border: 2px solid $color4;
+    margin-bottom: 30px;
+    width: auto;
+}
+
+.call p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.call a{
+    color: $color1;
+    background-color: rgba(250, 235, 215, 0.295);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+section{
+    transition: box-shadow 0.5s ease;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    width: 250px;
+    height: 400px;
+    background-color: #333;
+    border: 3px solid $color4;
+    margin-bottom: 60px;
+    transition: all 0.1s;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.card-img{
+    background-image: url(./img/dartvader.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img2{
+    background-image: url(./img/ironman1.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img3{
+    background-image: url(./img/spiderman.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img4{
+    background-image: url(./img/mandalorian.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img5{
+    background-image: url(./img/thanos.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-img6{
+    background-image: url(./img/joker.jpg);
+    height: 400px;
+    width: auto;
+    background-size: cover;
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: bisque;
+    margin-top: 5px;
+}
+
+.card-desc{
+    color: $color1;
+    text-align: center;
+}
+
+.card a{
+    color: $color3;
+    text-align: center;
+    background-color: $color4;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.1s;
+}
+
+.card a:hover{
+    color: $color5;
+}
+
+/* Fin Main Trabajos */
+
+/* Main Impresiones 3D */
+
+.jumbotron{
+    background-image: url(img/impresora3dmain.webp);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+}
+
+.impresiones3d{
+    text-align: center;
+    color: $color1;
+    padding: 5px;
+    background-color: rgb(22, 37, 37);
+    text-shadow: 0 0 4px whitesmoke;
+}
+
+.nleft{
+    height: 500px;
+    background-image: url(img/impresora2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nright{
+    background-color: $color1;
+}
+
+.nright p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgb(22, 37, 37);
+    text-shadow: 0 0 4px $color2;
+    padding: 5px;
+    margin-bottom: 0;
+}
+
+.video{
+    height: 600px;
+}
+
+iframe{
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fin Main Impresiones 3D */
+
+/* Página de contacto */
+
+.contacto{
+    padding: 20px;
+    background-image: none;
+    background-color: rgba(255, 68, 0, 0.404);
+}
+
+.formulario{
+    margin: 20px;
+}
+
+.mapa {
+    width: 402px;
+    height: 302px;
+    margin-top: 80px;
+    margin-left: 20px;
+    border: 1px solid $color4; 
+}
+
+/* Fin página de contacto */
+
+/* Footer */
+
+footer a{
+    transition: color 0.3s ease;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 4);
+    color: $color3;
+    padding: 5px;
+}
+
+footer a:hover{
+    color: $color5;
+}
+
+footer p{
+    margin-top: 15px;
+}
+
+footer i{
+    text-align: center;
+    letter-spacing: 8px;
+    padding-left: 10px;
+}
+
+.what{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(226, 49, 43, 0.685);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    color: $color3;
+    font-size: 20px;
+    border: 2px solid $color3;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px $color4;
+}
+
+.what {
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: $color3;
+    padding: 6px;
+}
+
+.what:hover{
+    color: $color5;
+}
+
+.irAlHome{
+    margin-right: 100px;
+}
+
+.subir{
+    height: 35px;
+    width: 40px;
+    font-size: 34px;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: $color1;
+    position: fixed;
+    bottom: 26px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 6px $color4 ;
+}
+
+/* Fin del Footer */
+
+/* Inicio mediaqueries */
+
+@media only screen and (min-width:0) and (max-width:576px) {
+        .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        padding-right: 10px;
+    }
+
+    .call{
+        width: 90%;
+    }
+
+    footer p{
+        padding: 0 50px;
+        }     
+
+    .redes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}

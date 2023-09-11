@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
-
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat:wght@400;700&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap");
 /* font-family: 'Lato', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Montserrat', sans-serif;
@@ -9,465 +8,444 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'PT Serif', serif;
 font-family: 'REM', sans-serif;
 font-family: 'Work Sans', sans-serif; */
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'PT Serif', serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Serif", serif;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 /* Main index */
-
-.navbar{
-    height: 85px;
-    box-shadow: 0 0 7px black !important;
+.navbar {
+  height: 85px;
+  box-shadow: 0 0 7px yellow !important;
 }
 
-.navbar-brand img{
-    height: 60px;
+.navbar-brand img {
+  height: 60px;
 }
 
-.nav-link{
-    color: white !important;
+.nav-link {
+  color: white !important;
 }
 
-.navbar a{
-    transition: color 0.3s ease;
-    text-decoration: none;
-    color: #fff;
-    padding: 6px;
+.navbar a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  padding: 6px;
 }
 
-.navbar a:hover{
-    color: yellow;
+.navbar a:hover {
+  color: yellow;
 }
 
-main{
-    height: auto;
-    width: auto;
-    background-color: antiquewhite;
-    background-image: url(img/impresora1.jpg);
-    background-size: cover;
+main {
+  height: auto;
+  width: auto;
+  background-color: whitesmoke;
+  background-image: url(img/impresora1.jpg);
+  background-size: cover;
 }
 
-.nosotrosPadre{
-    padding: 30px;
-    margin: 40px;
+.nosotrosPadre {
+  padding: 30px;
+  margin: 40px;
 }
 
-.nosotrosMain{
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    border: 2px solid black;
-    margin: 0 auto;
+.nosotrosMain {
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  border: 2px solid black;
+  margin: 0 auto;
 }
 
-.nosotrosMain p{
-    color: #fff;
-    font-size: 20px;
-    text-align: center;
-    padding: 12px;
-    margin: 0 auto;
+.nosotrosMain p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  margin: 0 auto;
 }
 
-.containerImpresora img{
-    border: 2px solid black;
+.containerImpresora img {
+  border: 2px solid black;
 }
 
-.container{
-    width: 60%;
-    padding-bottom: 70px;
+.container {
+  width: 60%;
+  padding-bottom: 70px;
 }
 
 /* Fin del Main index */
-
 /* Main Nosotros */
-
-.quienessomos{
-    height: 900px;
+.quienessomos {
+  height: 900px;
 }
 
-.quienessomos p{
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px solid black;
-    height: auto;
-    padding: 10px;
-    width: 60%;
-    color: #fff;
-    font-size: 18px;
-    font-family:'Open Sans', sans-serif;
-    margin: 15px;
-    margin-top: 50px;
-    display: block;
-    position: sticky;
-    top: 140px;
-    left: 80px;
+.quienessomos p {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  height: auto;
+  padding: 10px;
+  width: 60%;
+  color: white;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  margin: 15px;
+  margin-top: 50px;
+  display: block;
+  position: sticky;
+  top: 140px;
+  left: 80px;
 }
 
-.impresion3dimg{
-    float: right;
-    margin-right: 90px;
-    border: 2px solid black;
+.impresion3dimg {
+  float: right;
+  margin-right: 90px;
+  border: 2px solid black;
 }
 
 /* Fin Main Nosotros */
-
 /* Main Trabajos */
-
-.trabajos{
-    height: auto;
-    font-family: 'Lora', serif;
+.trabajos {
+  height: auto;
+  font-family: "Open Sans", sans-serif;
 }
 
-.logo{
-    color: aliceblue;
-    font-size: 36px;
-    padding: 50px;
-    text-align: center;
-    margin-bottom: 10px;
-    text-shadow: 0 0 10px whitesmoke;
+h1 {
+  color: white;
+  font-size: 40px;
+  padding: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px whitesmoke;
+  font-family: "Lora", serif;
 }
 
-.impresiones{
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.507);
-    display: inline-block;
-    border: 2px solid black;
-    width: auto;
-    padding: 30px;
-    margin: 20px;
-    margin-bottom: 70px;
+.impresiones {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: inline-block;
+  border: 2px solid black;
+  width: auto;
+  padding: 30px;
+  margin: 20px;
+  margin-bottom: 70px;
 }
 
-.impresiones h2{
-    color: whitesmoke;
-    text-align: center;
-    text-shadow: 0 0 8px whitesmoke;
-    padding-bottom: 10px;
-    text-decoration: underline;
+.impresiones h2 {
+  color: antiquewhite;
+  text-align: center;
+  text-shadow: 0 0 8px whitesmoke;
+  padding-bottom: 10px;
 }
 
-.padreCall{
-    padding:50px;
+.impresiones p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.call{
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
-    margin: 0 auto;
+.padreCall {
+  padding: 50px;
 }
 
-h1{
-    font-family: 'Lora', serif;
-    font-size: 24px;
-    color:aquamarine;
-    margin-bottom: 10px;
-    text-align: center;
+.call {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 0 auto;
 }
 
-.nosotrosimagen{
-    border: 2px solid black;
-    margin-bottom: 30px;
-    width: auto;
+.nosotrosimagen {
+  border: 2px solid black;
+  margin-bottom: 30px;
+  width: auto;
 }
 
-.call p{
-    text-align: center;
-    margin-bottom: 10px;
+.call p {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.call a{
-    color: antiquewhite;
-    background-color: rgba(250, 235, 215, 0.295);
-    text-decoration: none;
-    text-align: center;
-    display: block;
+.call a {
+  color: whitesmoke;
+  background-color: rgba(250, 235, 215, 0.295);
+  text-decoration: none;
+  text-align: center;
+  display: block;
 }
 
-section{
-    transition: box-shadow 0.5s ease;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
+section {
+  transition: box-shadow 0.5s ease;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
 }
 
-.card{
-    width: 250px;
-    height: 400px;
-    background-color: #333;
-    border: 3px solid black;
-    margin-bottom: 60px;
-    transition: all 0.1s;
+.card {
+  width: 250px;
+  height: 400px;
+  background-color: #333;
+  border: 3px solid black;
+  margin-bottom: 60px;
+  transition: all 0.1s;
 }
 
-.card:hover{
-    transform: scale(1.01);
-    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
-.card-img{
-    background-image: url(./img/dartvader.jpg);
-    height: 400px;
-    width: auto;
-    background-size: cover;
+.card-img {
+  background-image: url(./img/dartvader.jpg);
+  height: 400px;
+  width: auto;
+  background-size: cover;
 }
 
-.card-img2{
-    background-image: url(./img/ironman1.jpg);
-    height: 400px;
-    width: auto;
-    background-size: cover;
+.card-img2 {
+  background-image: url(./img/ironman1.jpg);
+  height: 400px;
+  width: auto;
+  background-size: cover;
 }
 
-.card-img3{
-    background-image: url(./img/spiderman.jpg);
-    height: 400px;
-    width: auto;
-    background-size: cover;
+.card-img3 {
+  background-image: url(./img/spiderman.jpg);
+  height: 400px;
+  width: auto;
+  background-size: cover;
 }
 
-.card-img4{
-    background-image: url(./img/mandalorian.jpg);
-    height: 400px;
-    width: auto;
-    background-size: cover;
+.card-img4 {
+  background-image: url(./img/mandalorian.jpg);
+  height: 400px;
+  width: auto;
+  background-size: cover;
 }
 
-.card-img5{
-    background-image: url(./img/thanos.jpg);
-    height: 400px;
-    width: auto;
-    background-size: cover;
+.card-img5 {
+  background-image: url(./img/thanos.jpg);
+  height: 400px;
+  width: auto;
+  background-size: cover;
 }
 
-.card-img6{
-    background-image: url(./img/joker.jpg);
-    height: 400px;
-    width: auto;
-    background-size: cover;
+.card-img6 {
+  background-image: url(./img/joker.jpg);
+  height: 400px;
+  width: auto;
+  background-size: cover;
 }
 
-.card-title{
-    text-align: center;
-    font-family: 'Lora', serif;
-    color: bisque;
-    margin-top: 5px;
+.card-title {
+  text-align: center;
+  font-family: "Lora", serif;
+  color: bisque;
+  margin-top: 5px;
 }
 
-.card-desc{
-    color: antiquewhite;
-    text-align: center;
+.card-desc {
+  color: whitesmoke;
+  text-align: center;
 }
 
-.card a{
-    color: #fff;
-    text-align: center;
-    background-color: black;
-    text-decoration: none;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: all 0.1s;
+.card a {
+  color: white;
+  text-align: center;
+  background-color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  transition: all 0.1s;
 }
 
-.card a:hover{
-    color: yellow;
+.card a:hover {
+  color: yellow;
 }
 
 /* Fin Main Trabajos */
-
 /* Main Impresiones 3D */
-
-.jumbotron{
-    background-image: url(img/impresora3dmain.webp);
-    height: 400px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    text-align: center;
+.jumbotron {
+  background-image: url(img/impresora3dmain.webp);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: center;
 }
 
-.impresiones3d{
-    text-align: center;
-    color: antiquewhite;
-    padding: 5px;
-    background-color: rgb(22, 37, 37);
-    text-shadow: 0 0 4px whitesmoke;
+.impresiones3d {
+  text-align: center;
+  color: whitesmoke;
+  padding: 5px;
+  background-color: rgb(22, 37, 37);
+  text-shadow: 0 0 4px whitesmoke;
 }
 
-.nleft{
-    height: 500px;
-    background-image: url(img/impresora2.jpg);
-    background-size: cover;
-    background-position: center;
+.nleft {
+  height: 500px;
+  background-image: url(img/impresora2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.nright{
-    background-color: antiquewhite;
+.nright {
+  background-color: whitesmoke;
 }
 
-.nright p{
-    font-family: 'Nunito', sans-serif;
-    font-size: 16px;
-    padding-top: 20px;
+.nright p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
 }
 
-h2{
-    text-align: center;
-    color: antiquewhite;
-    background-color: rgb(22, 37, 37);
-    text-shadow: 0 0 4px whitesmoke;
-    padding: 5px;
-    margin-bottom: 0;
+h2 {
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(22, 37, 37);
+  text-shadow: 0 0 4px antiquewhite;
+  padding: 5px;
+  margin-bottom: 0;
 }
 
-.video{
-    height: 600px;
+.video {
+  height: 600px;
 }
 
-iframe{
-    padding: 50px;
-    width: 100%;
-    height: 100%;
+iframe {
+  padding: 50px;
+  width: 100%;
+  height: 100%;
 }
 
 /* Fin Main Impresiones 3D */
-
 /* Página de contacto */
-
-.contacto{
-    padding: 20px;
-    background-image: none;
-    background-color: rgba(255, 68, 0, 0.404);
+.contacto {
+  padding: 20px;
+  background-image: none;
+  background-color: rgba(255, 68, 0, 0.404);
 }
 
-.formulario{
-    margin: 20px;
+.formulario {
+  margin: 20px;
 }
 
 .mapa {
-    width: 402px;
-    height: 302px;
-    margin-top: 80px;
-    margin-left: 20px;
-    border: 1px solid rgb(0, 0, 0); 
+  width: 402px;
+  height: 302px;
+  margin-top: 80px;
+  margin-left: 20px;
+  border: 1px solid black;
 }
 
 /* Fin página de contacto */
-
 /* Footer */
-
-footer a{
-    transition: color 0.3s ease;
-    text-decoration: none;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 4);
-    color: #fff;
-    padding: 5px;
+footer a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  text-shadow: 1px 1px 5px rgb(0, 0, 0);
+  color: white;
+  padding: 5px;
 }
 
-footer a:hover{
-    color: yellow;
+footer a:hover {
+  color: yellow;
 }
 
-footer p{
-    margin-top: 15px;
+footer p {
+  margin-top: 15px;
 }
 
-footer i{
-    text-align: center;
-    letter-spacing: 8px;
-    padding-left: 10px;
-}
-
-.what{
-    height: 50px;
-    width: 50px;
-    background-color: rgba(226, 49, 43, 0.685);
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    border: 2px solid white;
-    display: grid;
-    place-items: center;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px black;
+footer i {
+  text-align: center;
+  letter-spacing: 8px;
+  padding-left: 10px;
 }
 
 .what {
-    transition: color 0.3s ease;
-    text-decoration: none;
-    color: #fff;
-    padding: 6px;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(226, 49, 43, 0.685);
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border: 2px solid white;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
 }
 
-.what:hover{
-    color: yellow;
+.what {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  padding: 6px;
 }
 
-.irAlHome{
-    margin-right: 100px;
+.what:hover {
+  color: yellow;
 }
 
-.subir{
-    height: 35px;
-    width: 40px;
-    font-size: 34px;
-    background-color: rgba(0, 0, 0, 0.363);
-    color: whitesmoke;
-    position: fixed;
-    bottom: 26px;
-    right: 40px;
-    text-align: center;
-    line-height: 40px;
-    box-shadow: 0 0 6px black;
+.irAlHome {
+  margin-right: 100px;
+}
+
+.subir {
+  height: 35px;
+  width: 40px;
+  font-size: 34px;
+  background-color: rgba(0, 0, 0, 0.363);
+  color: whitesmoke;
+  position: fixed;
+  bottom: 26px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 0 6px black;
 }
 
 /* Fin del Footer */
-
 /* Inicio mediaqueries */
-
-@media only screen and (min-width:0) and (max-width:576px) {
-        .navbar-collapse{
-        background-color: rgba(0, 0, 0, 0.7);
-        display: flex;
-        padding-right: 10px;
-    }
-
-    .call{
-        width: 90%;
-    }
-
-    footer p{
-        padding: 0 50px;
-        }     
-
-    .redes{
-        display: flex;
-        flex-direction: column;
-    }
-
-    section{
-        display: flex;
-        flex-direction: column;
-    }
-}
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    padding-right: 10px;
+  }
+  .call {
+    width: 90%;
+  }
+  footer p {
+    padding: 0 50px;
+  }
+  .redes {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=estilos.css.map */
