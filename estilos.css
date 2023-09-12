@@ -345,8 +345,7 @@ iframe {
 /* Página de contacto */
 .contacto {
   padding: 20px;
-  background-image: none;
-  background-color: rgba(255, 68, 0, 0.404);
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   text-align: center;
 }
 
